@@ -1,4 +1,4 @@
-# Run-sh
+# run-sh
 
 ## Install
 `npm install run-sh`
@@ -8,6 +8,9 @@
 const sh = require('run-sh');
 
 sh("times").then(function(res) {
-  console.log("Current server time:", res.stdout);
+  console.log("Current server time: ", res.stdout);
+  if (res.stderr) console.log("Times threw following err: ", res.stderr);
+}, function(err) {
+  console.log("Error running `times`: " err);
 });
 ```
