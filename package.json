@@ -1,6 +1,6 @@
 {
   "name": "run-sh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make bash commands",
   "main": "index.js",
   "dependencies": {
