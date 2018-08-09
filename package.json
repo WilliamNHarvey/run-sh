@@ -1,0 +1,22 @@
+{
+  "name": "run-sh",
+  "version": "1.0.0",
+  "description": "Make bash commands",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^20.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "homepage": "https://github.com/WilliamNHarvey/run-sh",
+  "keywords": [
+    "Bash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamNHarvey/run-sh.git"
+  },
+  "author": "WilliamNHarvey",
+  "license": "ISC"
+}
