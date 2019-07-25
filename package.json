@@ -1,10 +1,10 @@
 {
   "name": "run-sh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make bash commands",
   "main": "index.js",
   "dependencies": {
-    "jest": "^20.0.4"
+    "jest": "^24.8.0"
   },
   "scripts": {
     "test": "jest"
